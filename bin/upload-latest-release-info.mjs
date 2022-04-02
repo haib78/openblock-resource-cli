@@ -9,7 +9,7 @@ import {S3, PutObjectCommand} from '@aws-sdk/client-s3';
 // import {Buffer} from 'buffer';
 
 const FILE_PATH = 'resource/latestRelease.json';
-const REPO = 'openblockcc/external-resources-v2';
+const REPO = 'haib78/external-resources-v2';//openblockcc
 
 const s3Client = new S3({
     endpoint: 'https://sgp1.digitaloceanspaces.com',
